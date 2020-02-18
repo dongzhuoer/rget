@@ -1,0 +1,15 @@
+destination: pkgdown/output
+url: https://pkgdown.dongzhuoer.com/dongzhuoer/rget
+
+authors:
+    Zhuoer Dong:
+        href: https://dongzhuoer.com
+
+template:
+    params:
+        bootswatch: cerulean
+
+
+
+
+

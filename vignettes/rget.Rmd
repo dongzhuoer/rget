@@ -1,0 +1,25 @@
+---
+title: "Introduction to rget"
+author: "Zhuoer Dong"
+date: "`r Sys.Date()`"
+output: prettydoc::html_pretty
+vignette: >
+  %\VignetteIndexEntry{Introduction to rget}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+```{r}
+library(rget)
+```
+
+# Innovation
+
+This package doesn't aim to replace wget. It just want to implement
+    the minimal function of grab a simple website.
+
+Why I want to write this package rather than use existing **wget**. **wget** just download `www.foo.com/bar/index.html` to `./www.foo.com/bar` , and then overwrite that file to a folder while downloading other HTML files in `www.foo.com/bar/` . I just want to ask whether you want to cry.
